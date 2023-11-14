@@ -1,0 +1,55 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1565374391015-af899382f2a6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 3px 3px 2px black;
+    margin-bottom: 5;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  #btnDolar, 
+  #btnEuro, 
+  #btnIens, 
+  #btnArs {     
+      font-family: "Roboto Mono", monospace;
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: dimgray; 
+      color: white;
+      border: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: background-color 0.3s ease;
+      margin: 10px 0 10px 0;
+      max-width: 30%;
+      text-shadow: 2px 2px 1px black;
+  }
+  
+  .alinhamento {
+    margin: auto;
+    width: 100%;
+  }
